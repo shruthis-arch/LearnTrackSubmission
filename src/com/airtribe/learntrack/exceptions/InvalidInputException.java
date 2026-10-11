@@ -1,0 +1,9 @@
+package LearnTrack.src.com.airtribe.learntrack.exceptions;
+
+public class InvalidInputException extends Exception{
+
+	public InvalidInputException(String message) {
+		super(message);
+	}
+
+}
